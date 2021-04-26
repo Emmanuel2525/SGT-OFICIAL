@@ -5,15 +5,27 @@
 }
 
 header{
-	border-bottom:solid red 3px; /*linea de referencia*/
+	display: fixed;
+	border-bottom:solid green 1px; /*linea de referencia*/
+}
+
+.con__nav{
 	display: flex;
 }
 
 .logo{
 	width:30%;
 }
+
+.con__nav{
+	width: 85%;
+	margin: auto;
+	margin-top: 10px;
+}
+
 header nav{
 	width: 70%;
+	margin-top: 60px;
 }
 
 header nav ul{
@@ -29,8 +41,11 @@ header nav ul li a{
 	display: block;
 }
 
+header nav ul li a:hover{
+	color: green; /*color de referencia*/
+	border-bottom: solid 1px green; /*color de referencia*/
+}
+
 .img{
 	width: 100px;	/*no se de que tamaño ponerla :'u */
 }
-
-
