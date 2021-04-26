@@ -9,18 +9,16 @@ header{
 	border-bottom:solid green 1px; /*linea de referencia*/
 }
 
-.con__nav{
-	display: flex;
-}
 
 .logo{
 	width:30%;
 }
 
-.con__nav{
+.header__cont{
 	width: 85%;
 	margin: auto;
 	margin-top: 10px;
+	display: flex;
 }
 
 header nav{
