@@ -1,52 +1,4 @@
-*{
-	font-family: sans-serif; 
-	margin: 0px;
-	padding: 0px;
-}
-
-header{
-	display: fixed;
-	border-bottom:solid green 1px; /*linea de referencia*/
-}
-
-
-.logo{
-	width:30%;
-}
-
-.header__cont{
-	width: 85%;
-	margin: auto;
-	margin-top: 10px;
-	display: flex;
-}
-
-header nav{
-	width: 70%;
-	margin-top: 60px;
-}
-
-header nav ul{
-	display: flex;
-	justify-content: flex-end;
-	list-style: none;
-}
-
-header nav ul li a{
-	text-decoration: none;
-	color: #000;
-	padding: 10px 20px;
-	display: block;
-}
-
-header nav ul li a:hover{
-	color: green; /*color de referencia*/
-	border-bottom: solid 1px green; /*color de referencia*/
-}
-
-.img{
-	width: 100px;	/*no se de que tamaño ponerla :'u */
-}
+/*ESTE ES EL SCROLL MANO, NO LO BORRES >:C*/
 
 .scroll__img{
 	position: fixed;
@@ -67,3 +19,4 @@ header nav ul li a:hover{
 .scroll:hover{
 	opacity: 0.9;
 }
+/*AQUI TERMINAAAAAAA*/
