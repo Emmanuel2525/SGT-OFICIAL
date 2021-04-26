@@ -1,21 +1,15 @@
-PAGINA DE SOLUCIONES GLOBALES DE TECNOLOGIA >:V/
+PAGINA DE SOLUCIONES GLOBALES DE TECNOLOGIA
 
-intrucciones de uso
+Referencia: http://www.soportetecnico.com.ve/
 
-intrucciones de uso
 
-intrucciones de uso
+1- Leer el portafolio
 
-intrucciones de uso
+2- Crear sitio default (html,css)
 
-intrucciones de uso
+3- profundizar en css y js
 
-intrucciones de uso
+5- base de datos 
 
-intrucciones de uso
 
-intrucciones de uso
-
-intrucciones de uso
-
-intrucciones de uso ECTTT .... :V/ disfrutelo
+La pagina debe ser moderna y tener la opcion de mandar un correo al gmail de SGT desde la misma pagina
