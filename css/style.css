@@ -13,8 +13,7 @@
     max-width: 1250px;
 }
 
-header{
-
+.body-header{
     border-bottom: rgb(180, 180, 180) 2px solid;
 }
 
@@ -30,8 +29,6 @@ header{
     display: flex;
     justify-content: space-between;
     list-style: none;
-
-
 }
 
 
@@ -39,11 +36,7 @@ header{
     color:black;
     text-decoration: none;
     display: block;
-    padding: 20px;
-   
-    
-   
-
+    padding: 20px; 
 }
 
 .header-ul li a:hover{
@@ -58,8 +51,6 @@ header{
 }
 
 
-
-
 .logo img{
     width: 150px;
 }
@@ -70,11 +61,22 @@ nav{
     width: 70%;
     font-size: 20px;
     
-    
-    
 }
 
 .logo{
     order: 1;
     margin-bottom: 5px;
 }
+
+
+.main-header{
+
+}
+
+.main-header-cont{
+  
+ 
+
+}
+
+
