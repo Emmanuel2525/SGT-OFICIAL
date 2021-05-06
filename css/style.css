@@ -14,7 +14,7 @@ ul{
 .header-cont, .main-cont, .footer-cont, .main-header-cont{
     margin:auto;
     width: 90%;
-    max-width: 1000px;
+    max-width: 900px;
 }
 
 .shot1{
@@ -92,8 +92,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: chartreuse;
- 
 }
 
 .shot2,.shot3{
