@@ -13,8 +13,8 @@ ul{
 
 .header-cont, .main-cont, .footer-cont, .main-header-cont{
     margin:auto;
-    width: 95%;
-    max-width: 1250px;
+    width: 90%;
+    max-width: 1000px;
 }
 
 .body-header{
@@ -97,7 +97,7 @@ nav{
  
 }
 
-.shot1,.shot2{
+.shot2,.shot3{
     display: none;
 }
 
