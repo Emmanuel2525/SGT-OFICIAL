@@ -94,6 +94,9 @@ nav{
     align-items: center;
 }
 
+.slideshot-li div img{
+    width: 900px;
+}
 .shot1{
     max-width: 900px;
 }
