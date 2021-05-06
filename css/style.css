@@ -94,6 +94,10 @@ nav{
     align-items: center;
 }
 
+.shot1 img{
+    width: 100%;
+}
+
 .shot2,.shot3{
     display: none;
 }
