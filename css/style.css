@@ -17,6 +17,9 @@ ul{
     max-width: 1000px;
 }
 
+.shot1{
+    width: 100%;
+}
 .body-header{
     border-bottom: rgb(180, 180, 180) 2px solid;
 }
@@ -83,17 +86,13 @@ nav{
     margin-top: 20px;
 }
 
-.main-header-cont{
-    display: flex;
-    justify-content: center;
- 
 
-}
 
 .slideshot{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    background: chartreuse;
  
 }
 
