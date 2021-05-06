@@ -94,9 +94,10 @@ nav{
     align-items: center;
 }
 
-.shot1 img{
-    width: 100%;
+.shot1{
+    max-width: 900px;
 }
+
 
 .shot2,.shot3{
     display: none;
