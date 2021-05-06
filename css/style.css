@@ -37,10 +37,12 @@ ul{
 
 
 .header-ul li a{
-    color:black;
+    color:rgb(71, 71, 71);
     text-decoration: none;
     display: block;
     padding: 20px; 
+    transition: all 0.2s;
+    
 }
 
 .header-ul li a:hover{
@@ -73,6 +75,10 @@ nav{
 }
 
 
+
+
+/* -MAIN- ==============================================*/
+
 .main-header{
     margin-top: 20px;
 }
@@ -83,5 +89,43 @@ nav{
  
 
 }
+
+.slideshot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.shot1,.shot2{
+    display: none;
+}
+
+.btn{
+    color: #2580c2;
+    font-size: 50px;
+    cursor: pointer;
+    align-items: center;
+    z-index: 2000;   
+    position: relative;
+    transition: color 0.2s;
+}
+
+.btn:hover{
+    color: #448ec3;
+
+}
+
+.left{
+    left: 20px;
+}
+
+.right{
+    right: 20px;
+}
+
+
+
+ 
 
 
