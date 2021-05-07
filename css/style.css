@@ -32,12 +32,11 @@ ul{
 .header-ul{
     display: flex;
     justify-content: space-between;
-    
 }
 
 
 .header-ul li a{
-    color:black;
+    color:#000000;
     text-decoration: none;
     display: block;
     padding: 20px; 
@@ -46,7 +45,6 @@ ul{
 .header-ul li a:hover{
     background: #373737;
     color: #ffffff;
-    
 
 }
 
@@ -84,4 +82,22 @@ nav{
 
 }
 
+.scroll__img{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 5%;
+    min-width: 45px; 
+    background-color: #cccccc;
+    border-radius: 50%;
+    opacity: 0.8;
+    
+}
 
+.scroll{
+    opacity: 0.8;
+}
+
+.scroll:hover{
+    opacity: 0.9;
+}
