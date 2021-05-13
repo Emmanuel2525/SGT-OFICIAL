@@ -11,10 +11,11 @@ ul{
 }
 
 
-.header-cont, .main-cont, .footer-cont, .main-header-cont{
+.header-cont, .main-cont, .footer-cont, .main-header-cont, .contactanos-cont{
     margin:auto;
     width: 90%;
     max-width: 900px;
+
 }
 
 .shot1{
@@ -130,6 +131,111 @@ nav{
 }
 
 
+
+
+
+
+.services{
+    margin-top: 50px;
+}
+
+.item-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #646464;
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.item-text h2{
+    color: #1b1b1b;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.services-ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.services-li{
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 4px;
+    box-shadow: 1px 1px 5px #909090;
+
+}
+
+.services-li:hover{
+    box-shadow: 1px 1px 5px #696969; 
+}
+
+.item-img{
+
+}
+
+.services-img{
+    width: 100%;
+    height: 150px;
+    margin:auto;
+
+
+}
+
+.vym{
+ 
+    margin-top: 40px;
+    font-size: large;
+    font-weight: 700;
+
+}
+
+.vym-item{
+  
+    padding: 10px 0;
+    text-align: center;
+    margin:10px 0;
+    color:#5f5f5f;
+}
+
+.vym-item h2{
+    text-align: center;
+    color:#333333;
+}
+
+.contactanos{
+    background: #2580c2;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.contactanos-header{
+    padding: 50px 0;
+}
+
+
+@keyframes come {
+    0%{
+        opacity: 0.4;
+    }
+    100%{
+
+        opacity: 1;
+    }
+}
+
+@keyframes gone {
+    0%{
+        opacity: 0.4;
+    }
+    100%{
+ 
+        opacity: 1;
+    }
+}
 
  
 
