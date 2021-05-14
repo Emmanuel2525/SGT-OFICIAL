@@ -33,14 +33,11 @@ function goLeft(){
     slides[indice].style.display = "block";
 }
 
-function change(){
-    goRight();
-}
 
 var intervalo;
 
 function cambio(){
-    intervalo = setInterval(change,4000)
+    intervalo = setInterval(goRight,4000);
 } 
 
 function stop(){

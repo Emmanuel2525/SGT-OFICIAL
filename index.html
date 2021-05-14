@@ -26,10 +26,10 @@
 
             <nav class="header-nav">
                 <ul class="header-ul">
-                    <li><a href="#"><i class="fa fa-home"></i>Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Vision</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#" class="header-a one active"><i class="fa fa-home"></i>Inicio</a></li>
+                    <li><a href="#" class="header-a two"><i class="fa fa-layer-group"></i>Servicios</a></li>
+                    <li><a href="#" class="header-a tri"><i class="fa fa-eye"></i>Vision</a></li>
+                    <li><a href="#" class="header-a four"> <i class="fa fa-user"></i>Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -169,19 +169,33 @@
 
             <div class="contactanos-cont">
 
-                <header class="contactanos-header">
+                
+                <div class="contactanos-header">
 
                     <h2>Envianos un E-mail</h2><br>
 
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere nam possimus ipsa dolores illo
                         animi praesentium porro voluptatem necessitatibus voluptate laudantium, quidem, nihil optio
                         vitae maiores esse sint earum quis?</p><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem tenetur obcaecati, quam
-                        maiores possimus ipsa itaque ipsum, libero perferendis necessitatibus veritatis officia
-                        accusantium iusto voluptas atque voluptatem at iure.</p>
+                    
+                </div>    
+                        <div class="formulario">
+
+                            <div class="email-icon"><i class="fa fa-envelope"></i></div>
+
+                            <form action="email.php" id="form" class="form">
+
+                                <label for="consulta"  class="consulta">
+                                    <input type="text" placeholder="Escribe tu consulta" name="consulta" id="consulta" class="text">
+                                    <input type="submit" class="enviar">
+                                </label>
+
+                            </form>
+
+                        </div>
 
 
-                </header>
+                
 
             </div>
 
