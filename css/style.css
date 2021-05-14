@@ -266,27 +266,36 @@ nav{
 .consulta {
     display: flex;
     
+    
 }
 
 .text{
-    width: 80%;
+    width: 100%;
     border:none;
+    border: 1px solid #ffffff;
     padding: 10px;
+    color: #ffffff;
+    outline: none;
+    background: #2580c2;
 }
 
-.text:active{
-    border:none ;
+::placeholder{
+    color: #ffffff;
 }
+
 
 
 
 .enviar{
-    background: #5f5f5f;
+    background: none;
     color:#ffffff;
-    border:none;
-    width: 20%;
+    
+    border:1px solid #ffffff;
+ 
     padding: 10px;
-    cursor: pointer;  
+    cursor: pointer;
+    font-size: 15px ;
+    font-weight: 800;  
 }
 
 

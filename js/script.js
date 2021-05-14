@@ -4,8 +4,6 @@ const slides = document.querySelectorAll(".slideshot-li");
 const slider = document.querySelector(".slideshot")
 let indice = 0;
 
-cambio();
-
 right.addEventListener("click",goRight);
 left.addEventListener("click",goLeft);
 slider.addEventListener("mouseover",stop)
@@ -34,16 +32,12 @@ function goLeft(){
 }
 
 
-var intervalo;
-
-function cambio(){
-    intervalo = setInterval(goRight,4000);
-} 
+var intervalo = setInterval(goRight,4000);
 
 function stop(){
     clearInterval(intervalo)
 }
 
 function reset(){
-    cambio();
+    intervalo = setInterval(goRight,4000)
 }
